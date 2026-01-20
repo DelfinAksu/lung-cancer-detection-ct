@@ -1,6 +1,3 @@
-# lung-cancer-detection-ct
-Lung cancer classification from CT images using EfficientNetB0 transfer learning
-
 # Lung Cancer Detection from CT Images
 
 This project focuses on automated lung cancer classification from chest CT images using deep learning techniques.
@@ -30,7 +27,8 @@ The following preprocessing pipeline was applied:
 
 ## Results
 - Train / Validation / Test split: 70 / 15 / 15
-- **Test accuracy: ~89.8%**
+- **Test accuracy: ~89.8% on unseen CT images**
+These result demonstrate strong generalization performance despite class imbalance in the dataset.
 - Performance evaluated using confusion matrix and accuracy-based metrics
 
 ## Project Links
